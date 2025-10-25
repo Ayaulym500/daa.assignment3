@@ -1,0 +1,53 @@
+{"results": [
+  {
+    "prim": {
+      "mst_edges": "[(A - C, 3), (B - C, 2), (B - D, 5)]",
+      "operations": 15,
+      "total_cost": 10,
+      "time_ms": 2.0619
+    },
+    "vertices": 4,
+    "edges": 5,
+    "kruskal": {
+      "mst_edges": "[(B - C, 2), (A - C, 3), (B - D, 5)]",
+      "operations": 5,
+      "total_cost": 10,
+      "time_ms": 1.3224
+    },
+    "graph_id": "small_graph"
+  },
+  {
+    "prim": {
+      "mst_edges": "[(A - C, 2), (C - D, 3), (A - B, 4), (C - E, 4), (E - F, 1)]",
+      "operations": 40,
+      "total_cost": 14,
+      "time_ms": 0.0695
+    },
+    "vertices": 6,
+    "edges": 8,
+    "kruskal": {
+      "mst_edges": "[(E - F, 1), (A - C, 2), (C - D, 3), (A - B, 4), (C - E, 4)]",
+      "operations": 8,
+      "total_cost": 14,
+      "time_ms": 0.0367
+    },
+    "graph_id": "medium_graph"
+  },
+  {
+    "prim": {
+      "mst_edges": "[(A - B, 5), (B - C, 3), (C - D, 4), (D - E, 2), (E - F, 6), (F - G, 7), (G - H, 1)]",
+      "operations": 56,
+      "total_cost": 28,
+      "time_ms": 0.057
+    },
+    "vertices": 8,
+    "edges": 8,
+    "kruskal": {
+      "mst_edges": "[(G - H, 1), (D - E, 2), (B - C, 3), (C - D, 4), (A - B, 5), (E - F, 6), (F - G, 7)]",
+      "operations": 8,
+      "total_cost": 28,
+      "time_ms": 0.0333
+    },
+    "graph_id": "large_graph"
+  }
+]}
