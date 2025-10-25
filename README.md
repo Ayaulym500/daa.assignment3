@@ -45,18 +45,20 @@ Both algorithms correctly produced the same MST with identical total cost, confi
 However, their performance differs depending on graph structure:
 
     Prim’s Algorithm is preferable when:
-o	The graph is dense (many edges per vertex);
 
-o	An adjacency matrix is used;
+•	The graph is dense (many edges per vertex);
 
-o	You need to grow the MST dynamically (e.g., in network expansion problems).
+•	An adjacency matrix is used;
+
+•	You need to grow the MST dynamically (e.g., in network expansion problems).
 
    Kruskal’s Algorithm is preferable when:
-o	The graph is sparse;
 
-o	The input is naturally represented as an edge list;
+•	The graph is sparse;
 
-o	You want simpler parallelization or easier implementation with Union-Find.
+•	The input is naturally represented as an edge list;
+
+•	You want simpler parallelization or easier implementation with Union-Find.
 
 In this project:
 
