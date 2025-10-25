@@ -27,8 +27,10 @@ Kruskal’s algorithm executed faster (1.32 ms vs 2.06 ms) on the small graph.
 Prim’s algorithm required more time due to repeated key updates in the priority queue.
 
 
+
 Operations:
 Kruskal’s performed only 5 operations, while Prim’s required 15, showing Kruskal’s better efficiency for smaller graphs.
+
 
 
 Scalability:
